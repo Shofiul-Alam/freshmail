@@ -1,0 +1,29 @@
+XLite\Model\Config:
+  - name: freshMailAPIKey
+    category: Shofi\FreshMail
+    type: text
+    orderby: 100
+    value: ''
+    translations:
+      - code: en
+        option_name: Freshmail API key
+        option_comment: Please get API key from freshmail
+  - name: freshMailAPISecret
+    category: Shofi\FreshMail
+    type: text
+    orderby: 101
+    value: ''
+    translations:
+      - code: en
+        option_name: Freshmail API secret
+        option_comment: Please get API secret from freshmail
+  - name: freshMailListAPIKey
+    category: Shofi\FreshMail
+    type: text
+    orderby: 102
+    value: ''
+    translations:
+      - code: en
+        option_name: Freshmail List API key
+        option_comment: Please get List API key from freshmail
+    
